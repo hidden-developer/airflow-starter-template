@@ -1,0 +1,9 @@
+requests
+requests_toolbelt
+apache-airflow==2.5.1
+apache-airflow[amazon]
+apache-airflow-providers-amazon
+apache-airflow-providers-google
+apache-airflow-providers-mysql
+mysql-connector-python
+mysqlclient
