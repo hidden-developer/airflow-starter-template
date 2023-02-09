@@ -1,7 +1,7 @@
 import pendulum
 from airflow.models import DAG
 from airflow.operators.email import EmailOperator
-from poomang.providers.amazon.aws.operators.ses import SESOperator
+from libs.providers.amazon.aws.operators.ses import SESOperator
 
 with DAG(
     "sample_send_email",

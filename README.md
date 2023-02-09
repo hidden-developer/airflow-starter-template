@@ -46,8 +46,7 @@
 6. Setup Airflow Settings
 
    - `[Admin] - [Connection]`: connect for Airflow and provider
-     - Bigquery: Google Cloud(service_account.json)
-       - place to `configs/service_account.json`
+     - Bigquery: Google Cloud(KeyFileJSON: service_account.json)
      - AWS: Amazon Web Services(AccessKeyId, SecretAccessKey, Extra: `{"region_name": "ap-northeast-2"}`)
      - MySQL: MySQL(Host, Schema, Login, Password, Port)
 

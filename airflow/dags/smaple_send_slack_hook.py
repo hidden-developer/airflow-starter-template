@@ -1,6 +1,6 @@
 import pendulum
 from airflow.models import DAG
-from poomang.providers.https.operators.https import SimpleHttpsOperator
+from libs.providers.https.operators.https import SimpleHttpsOperator
 
 with DAG(
     "send_https_api",
